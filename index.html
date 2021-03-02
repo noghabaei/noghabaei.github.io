@@ -1,383 +1,127 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Full-Video-Background.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Mojtaba Portfolio</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-			
-
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Mojtaba Noghabaei</h1>
-            <h2>Ph.D. student in civil, construction, and environmental engineering</h2>
-            <a href="https://github.com/mojtaba1995/mojtaba1995.github.io/blob/master/CV/Mojtaba_CV_MN_R07.pdf?raw=true" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="about-me">
+                    <p style="margin-bottom: 0px;">Hello! I am <strong>Mojtaba Noghabaei</strong>. I am a fourth-year Ph.D. candidate at North Carolina State University working on visual data analytics and applications in construction industry.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block photography" style="padding-bottom: 10px;">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: rgb(255,255,255);">
+                        <div class="about-me">
+                            <h1 style="font-family: Lato, sans-serif;padding-left: 10px;"><strong>Research Focus</strong></h1>
+                            <p style="text-align: left;font-family: Lato, sans-serif;font-size: 18px;font-weight: 300;color: #212529;/*margin-top: 20%;*//*margin-bottom: 20%;*//*height: auto;*//*float: none;*//*display: inline-block;*//*vertical-align: middle;*//*align-content: center;*//*vertical-align: bottom;*/padding-right: 10px;padding-left: 10px;">My research focuses on applying new Computer Vision methods for construction performance modeling and simulation.&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-8 item zoom-on-hover" style="background: rgb(255,255,255);"><img style="height: 94%;width: 100%;" src="assets/img/beach.jpg"><input type="range" style="width: 100%;padding: 0px;" value="0"></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block website gradient" style="background: #150c21;padding-top: 30px;padding-bottom: 30px;">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-8 item zoom-on-hover" style="color: rgb(21,12,33);"><video width="100%" height="100%" controls="" loop="" preload="metadata"><source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="audio/mp4"></video></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"
+                        style="background: rgb(21,12,33);color: rgb(21,12,33);">
+                        <div class="about-me">
+                            <h1 style="font-family: Lato, sans-serif;padding-left: 20px;color: rgb(255,255,255);"><strong>Motivations</strong></h1>
+                            <p style="text-align: left;font-family: Lato, sans-serif;font-size: 18px;font-weight: 300;color: #ffffff;/*margin-top: 20%;*//*margin-bottom: 20%;*/height: auto;padding-right: 10px;padding-left: 20px;">This short video shows that why and how my research is important for construction industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding-top: 30px;">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3 style="padding-top: 5px;text-align: center;padding-right: 20px;">Liked what you see? Take a look at the my other projects!</h3><a href="projects-grid-cards.html"><button class="btn btn-outline-primary btn-lg" type="button">Projects</button></a></div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Special Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Computer Vision</h3>
+                                <p class="card-text">I have experience with point clouds and computer vision applications in construction. During my projects, I gained experience with deep learning and AI to analyze images.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Data Analytics</h3>
+                                <p class="card-text">Through my research as a Ph.D. candidate, I worked on analyzing datasets that were collected during my research using machine learning and Deep Learning approaches.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Augmented Reality</h3>
+                                <p class="card-text">I used Unity 3D to develop new generation of Augmented and Virtual Reality system for improving construction safety performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block website gradient" style="background: #150c21;padding-top: 50px;padding-bottom: 50px;">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3 style="padding-top: 5px;text-align: center;padding-right: 20px;">You can also take a look at my publications here!</h3><a href="projects-grid-cards.html"><a class="btn btn-outline-primary btn-lg" role="button" href="Publications.html">Publications</a></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                         Mojtaba Noghabaei is PhD student (research/teaching assistant) in the Department of Civil, Construction, and Environmental Engineering at North Carolina State University (NCSU). As a member part of the CARL (Construction Automation and Robotics Lab) his research focuses mainly on utilizing cutting-edge Virtual Reality (VR) and Augmented Reality (AR) in construction industry. In addition, he has several projects focusing on utilizing brain sensing devices, visualization, and machine learning analytic that can leverage emerging and often already existing wearable sensory data (i.e., eye-tracking, brain sensors, ECG sensors) for effective construction project safety and enhancing site-to-office and office-to-site communications. 
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="August 2017 – Present">
-                <h3>North Carolina State University</h3>
-                <h4>Research and Teaching Assistant</h4>
-                <p>
-                    Graduate Instructor, CE-301: Surveying Fall 2017<br>
-					Graduate Instructor, CE-301: Surveying Spring 2018<br>
-					Graduate Instructor, CE-301: Surveying Fall 2018
-                </p>
-            </div>
-
-            <div data-date="August 2016 – June 2017">
-                <h3>Tecnosa Novel Construction Technologies</h3>
-                <h4>Research Assistant</h4>
-                <p>
-                    The main duties were developing VR archviz models and developing VR crane models.
-                </p>
-            </div>
-
-            <div data-date="July 2016 – October 2016">
-                <h3>Imen Sazeh Fadak</h3>
-                <h4>Intern</h4>
-                <p>
-                    The main duties were developing 3d model using google sketchup and developing VR archviz models.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>North Carolina State University</h3>
-            <span class="education-date">Aug 2017 - June 2021</span>
-            <h4>PhD in Construction Management</h4>
-            <p>
-                
-            </p>
-        </div>
-		
-		
-        <div class="education-block">
-            <h3>University of Tehran</h3>
-            <span class="education-date">Sept 2013 - June 2017</span>
-            <h4>Bachelor of Science in Civil Engineering</h4>
-            <p>
-                
-            </p>
-        </div>
-        <!-- End .education-block -->
-<!--
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
--->
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-	
-	
-
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Crane.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>VR Crane Operator Training</h3>
-                        <p>
-                            Many industrial projects involve the use of prefabricated modules built offsite, and installation on-site using mobile cranes. Due to their costly operation and safety concerns, utilization of such heavy lift mobile cranes requires a precise lift planning. Traditional lift planning methods on congested industrial job sites are ineffective, time-consuming and non-precise in many cases, whereas computer-based simulation can be a better tool. By providing a VR environment in which the crane crew can experience lifting process. Providing such VR simulation not only facilitates planning for lifts, but also provides a training environment to enhance safe climate prior to the actual lift. The developed VR model is implemented successfully on an actual construction site of a petrochemical plant on a modular basis in which heavy lift mobile cranes are employed.
-                        </p>
-                        <a href="https://github.ncsu.edu/snoghab/CranePCL">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Husky.JPG" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Autonomous Robotic System using Visual Sensors</h3>
-                        <p>
-                           The objective of this project is to develop two mobile robotics systems (a ground vehicle and a blimp) that interact with each other. These vision systems will autonomous navigate and monitor civil infrastructure systems (e.g., humans, equipment, supplies and progress of constructions site).
-                        </p>
-                        <a href="https://github.ncsu.edu/snoghab/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Remote.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Cloud-based Remote Inspection System using UAV</h3>
-                        <p>
-                           The objective of this project is to provide a framework for a remote monitoring system that provides a realistic experience and immersive 360 views of the construction site to managers in real time, who may be located thousands of miles from the construction sites. The system uses 3D 360 cameras, which are mounted on Unmanned Aerial Vehicles (UAVs) or drones, operated remotely by the managers. The two onboard computer systems enable remote operation of the UAV and live-streaming of stereo 360 video content via a cloud-based server. The stereoscopic video is viewed by the managers (can be viewed by multiple people as well) in a VR headset which gives them a sense of realism and emotional and cognitive presence which is important for accurate monitoring and decision-making.
-                        </p>
-                        <a href="https://github.ncsu.edu/snoghab/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/VRTool.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Real-Time Cost Estimation in Virtual Reality</h3>
-                        <p>
-                           To minimize the impact of change orders on the design and total cost, an approach that allows communication and interaction with 3D models through advanced visualization tools (i.e., virtual and augmented reality environments) can be effective. To further identify the influence of immersive virtual environments(IVEs) on project management, a systematic approach is proposed through which stakeholders can: (1) visualize and interact with 3D models in one-to-one scaled realistic virtual environments (fully immersive); and (2) visualize the dollar amount changes as the results of change orders. The results of the presented case study show that clients can exercise the ability to make changes virtually well before actual construction begins.
-                        </p>
-                        <a href="https://github.ncsu.edu/snoghab/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/BMS.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Development of Bridge Maintenance System using BIM </h3>
-                        <p>
-                           Bridges play a critical role in the transportation system network; accordingly, assuring satisfaction with the service level of these structures is vital for managers. However, determining which elements of a bridge to repair by which method in any given year, based on budget limitations over time in a bridge with several elements, is a complicated task. Researchers have focused on developing various optimization models (e.g. Genetic algorithm) to deal with such an optimization problem. This study focuses on developing an integrated framework based on BIM and bridge maintenance management. BIM not only enhances visualization capabilities to assist maintenance managers in making decisions, but also automatically feeds into the optimization system. The introduced system is successfully verified using a real-world case study.
-                        </p>
-						<a href="https://github.ncsu.edu/snoghab/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Slam.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Real-Time Image Localization and Registration with BIM using Perspective Alignment for Indoor Monitoring of Construction</h3>
-                        <p>
-                           Real-Time Image Localization and Registration with BIM using Perspective Alignment for Indoor Monitoring of Construction
-                        </p>
-                        <a href="https://github.ncsu.edu/snoghab/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Smartcities.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Pipe Overflow Prediction Model in Mixed Reality</h3>
-                        <p>
-                            The objective of this study is to predict overflows in stormwater networks using smart cities technologies and data-driven models and improve collaboration between utility managers using smart visualization techniques.
-To achieve this, the authors utilized digital twin models in a Mixed Reality (MR) environment which is connected to a real-time overflow prediction model based on forecasted precipitation or rainfall hydrograph.
-The results indicate that it is possible to predict pipe overflows in stormwater networks using neural networks with a very high accuracy and connect that model to a MR environment in a 3D engine.
-Conclusion: The prediction model which is proposed by the authors in this study can improve the efficiency in stormwater management systems and help utility managers in hard decision making processes.
-                        </p>
-                        <a href="https://github.com/mojtaba1995/CE-791-Smart-Cities">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Software Development</li>
-			<li>Unity3D</li>
-			<li>Machine Learning</li>
-			<li>Fortran</li>
-			<li>Github</li>
-			<li>Data Analysis</li>
-			<li>Visual Basic</li>
-			<li>TensorFlow</li>
-			<li>Virtual Reality</li>
-			<li>Augmented Reality</li>
-			<li>Mixed Reality</li>
-			<li>Artificial Neural Networks</li>
-			<li>LaTeX</li>
-			<li>Building Information Modeling (BIM)</li>
-			<li>ETABS and Safe</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/m.noghabaee@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2018 Mojtaba Noghabaei
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/mojtaba1995/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-						<!--
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-						-->
-                        <li>
-						
-                            <a href="https://www.linkedin.com/in/mojtaba-noghabaei/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=100006231487572" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/MNoghabaee" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-						<!--
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-						-->
-                    </ul>
-                </div>
-            </div>
+            <div class="links"><a href="index.html">Home</a><a href="contact.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
+            <div class="social-icons"><a href="https://scholar.google.com/citations?user=yc4L4WcAAAAJ&amp;hl=en&amp;oi=ao"><i class="icon ion-social-google"></i></a><a href="https://www.linkedin.com/in/mojtaba-noghabaei/"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/mojtaba1995"><i class="icon ion-social-github"></i></a></div>
         </div>
     </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
