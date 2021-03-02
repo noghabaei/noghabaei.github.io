@@ -49,7 +49,7 @@
                     <!-- <div class="col-md-6 col-lg-8 item zoom-on-hover" style="background: rgb(255,255,255);"><img style="height: 94%;width: 100%;" src="assets/img/beach.jpg"><input type="range" style="width: 100%;padding: 0px;" value="0"></div> -->
 					<div class="col-md-6 col-lg-8 item zoom-on-hover" style="background: rgb(255,255,255);">
 						<input id="timeline" type="range" height="50px" style="width: 100%;padding: 0px;" value="0">
-						<canvas id="potreecanvas" height="500px" style="width: 100%;border:1px solid">
+						<canvas id="potreecanvas" height="500px" width="600px" style="width: 100%;border:1px solid">
 					</div>
                 </div>
             </div>
@@ -292,9 +292,9 @@
 						if(count1 == 1){
 							var object = scene.getObjectByName("objectName" + String(counter));
 							scene.remove(object); 
-							loadPC("clouds/cloud1/cloud.js");
+							//loadPC("clouds/cloud1/cloud.js");
 							//console.log("log");
-							//loadPointCloud("clouds/cloud1/clouds.json", new THREE.Vector3(-4, -4, 3.0));
+							loadPointCloud("clouds/cloud1/cloud.js", new THREE.Vector3(0, 0, 0));
 						}
 						//
 					}
@@ -305,8 +305,8 @@
 							var object = scene.getObjectByName("objectName" + String(counter));
 							scene.remove(object); 
 							//console.log("log");
-							loadPC("clouds/cloud2/cloud.js");
-							//loadPointCloud("clouds/cloud1/sources.js", new THREE.Vector3(8, -3, 0.0));
+							//loadPC("clouds/cloud2/cloud.js");
+							loadPointCloud("clouds/cloud2/cloud.js", new THREE.Vector3(0, 0, 0));
 						}
 						//
 					}
