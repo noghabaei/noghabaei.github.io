@@ -235,7 +235,7 @@
 					Potree.loadPointCloud(url, "pointcloud", function(e)
 					{
 						var points = new Potree.Group();
-						points.setPointBudget(1000000);
+						points.setPointBudget(500000);
 						points.name = "objectName" + String(counter);
 						//points.material.opacity = 0.0;
 						//points.material.wireframe = false;
